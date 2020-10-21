@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/san_juan"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="mapaBiblioteca" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:src="@drawable/iglesia_funza"
+        android:layout_gravity="center_horizontal"
+        android:onClick="mapaParroquiaFunza"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/iglesia_mosquera"
+                android:paddingRight="10dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="mapaParroquiaMosquera"/>
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:src="@drawable/parque_aguas1"
+                android:layout_gravity="center_horizontal"
+                android:onClick="mapaParqueAguas"/>
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
